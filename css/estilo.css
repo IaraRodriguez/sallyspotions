@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url(../img/bg.png);
+	font-family:"Montserrat", sans-serif ;
+}
+
+main{
+	width: 80%;
+	height: 725px;
+	background-color: #008F8C;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    background-color: black;
+    padding: 20px;
+}
+
+.logonegativo{
+	width: 150px;
+}
+
+nav{
+	background-color: black;
+	float: right;
+}
+
+ul.botonera_horizontal{
+	margin: 0px;
+	padding: 25px;
+	list-style-type: none;
+}
+
+ul.botonera_horizontal li{
+	display: inline;
+}
+
+ul.botonera_horizontal li a {
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #EA9E44;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	margin-right:75px;
+	margin-bottom: 20px;
+	float: right;
+	font-size: 15px;
+}
+
+ul.botonera_horizontal li a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+section{
+	width: 100%;
+	height: 550px;
+}
+
+#uno{
+	width: 50%;
+	height: 550px;
+	background-color: white;
+	float: left;
+	
+}
+
+.slider{
+	width: 400px;
+	height: 400px;
+	margin-left:100px;
+	margin-top: 100px;
+}
+.pocion {
+	transform: rotate(-20deg);
+	width: 500px;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#dos{
+	width: 50%;
+	height: 550px;
+	background-color:white;
+	float: right;
+ 
+}
+
+.logopositivo{
+	width: 200px;
+	margin-left: 0px;
+	margin-top: 100px;
+}
+
+.subtitulo{
+	font-size: 20px;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.botoncomprar {
+    padding: 20px;
+    background-color: #D86F8D;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.boton:hover {
+    background-color: #ff7f9a;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+}
+
+.textura{
+	width: 70%;
+	height: 50px;
+	background-color: black;
+	float: left;
+}
+.h3footer{
+	color: white;
+	font-weight: 400;
+	padding: 15px ;
+	font-size: 15px;
+}
+
+#redes{
+	width: 30%;
+	height: 50px;
+	background-color: black;
+	background-image: url(../img/redes.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 200px;
+	float: right;
+	
+}
+
+
+
+
+form{
+	width: 100%;
+	height: 1375px;
+	background-color: #EA9E44;
+	padding: 50px;
+
+}
+ 
+ .contenedorform{
+ 	width: 80%;
+	height: 1550px;
+	background-color: #008F8C;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+.sectionform{
+	height: 1375px;
+}
+.formarticle1 {
+    width: 50%;
+    float: left;
+}
+
+.formarticle2 {
+    width: 50%;
+    float: right;
+    height: 687px;
+    background-color: black;
+}
+
+.formarticle3 {
+    width: 50%;
+    height: 688px;
+    float: right;
+    background-color: black;
+  
+}
+
+.h1galeriaform{
+	width: 300px;
+	font-size: 20px;
+	margin-left: 150px;
+	margin-top: 50px;
+	text-align: center;
+	color: #EA9E44;
+}
+
+.titulosgaleriaform{
+	width: 200px;
+	color: #0EBBD9;
+	margin-left: 200px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.galeriaform{
+	width:400px;
+	height: 400px;
+	margin-left: 125px;
+	margin-top: 25px;
+}
+
+
+
+.h1f{
+	font-size: 20px;
+
+}
+
+.h3f{
+	font-weight: 400;
+	font-size: 15px;
+}
+
+
+.respuestas{
+	width: 100%;
+	height: 35px;
+}
+
+.aclaraciones{
+	width: 100%;
+	height: 150px;
+}
+
+.botonenviar{
+	width: 30%;
+	height: 50px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	font-weight: 700;
+	font-family:"Montserrat", sans-serif ;
+	border: none;
+	border-radius: 5px;
+
+}
+
+
+
+
+.h1g{
+	color: #0EBBD9;
+	font-size: 30px;
+	margin-left: 350px;
+	margin-bottom: 50px;
+}
+.miniaturas{
+	width:200px;
+	border-radius: 10px;
+
+}
+
+.stock{
+	width: 100%;
+	height: 625px;
+	background-color: black;
+	margin-left: auto;
+	padding: 50px;
+
+}

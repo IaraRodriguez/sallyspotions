@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+/>
+
+</head>
+<body>
+
+<main class="contenedorform">
+	
+<header> 
+	<a href="index.html" >
+		<img src="img/logonegativo.png" class="logonegativo">
+	</a>
+	
+<nav>
+	<ul class="botonera_horizontal">
+	<li><a href="galeria.html">Productos</a></li>
+	<li> <a href="formulario.html">Encargos</a></li>
+	<li><a href="#">Ofertas</a></li>
+	<li><a href="#">Acerca de</a></li>
+	</ul>
+</nav>
+</header>
+
+<section class="sectionform"> 
+	<article class="formarticle1"> 
+<form action="mailto:iaruchinrodriguez@gmail.com" method="post">
+		<h1 class="h1f">Personalizá tu poción</h1> <br>
+	<h3 class="h3f">Una vez completada la información, envía el formulario a nuestro mail. Luego nosotros nos contactaremos para confirmar tu pedido.</h3> <br>
+
+	<h2 class="h1f">Paso 1</h2> <br>
+
+	<label>Nombre</label> <br>
+	<input type="text" name="nombre" class="respuestas" > <br> <br>
+
+	<label>Apellido</label> <br>
+	<input type="text" name="apellido" class="respuestas"> <br> <br>
+
+	<label>Dirección de mail</label> <br>
+	<input type="text" name="mail" class="respuestas"> <br> <br>
+
+	<label>Celular</label> <br>
+	<input type="text" name="celular" class="respuestas"> <br> <br>
+	
+	<label>País de residencia </label> <br>
+	<select id="so" name="so" class="respuestas">
+		<option value="" selected ="selected"> País </option>
+		<option value="arg"> Argentina</option>
+		<option value="chile"> Chile</option>
+		<option value="uru"> Uruguay</option>
+	</select> <br> <br>
+
+	<br><h2 class="h1f">Paso 2</h2> 
+
+	<br> <label> <strong>
+	Elegí tu tipo de poción</strong> </label> <br>
+	<br><input type="radio" name="paso2" value="amor">
+	<label>Amor</label> <br>
+
+	<input type="radio" name="paso2" value="autoestima">
+	<label>Autoestima</label> <br>
+	<input type="radio" name="paso2" value="exito">
+	<label>Éxito</label> <br>
+
+	<input type="radio" name="paso2" value="dinero">
+	<label>Dinero</label> <br> <br>
+
+	<br> <h2 class="h1f">Paso 3</h2>
+
+	<br> <label id="gustos"> <strong>Elegí el gusto de tu poción </strong> </label><br> 
+	<br>
+	<input type="radio" name="paso3" value="chocolate">
+	<label>Chocolate</label> <br>
+
+	<input type="radio" name="paso3" value="frutosrojos">
+	<label>Frutos rojos </label> <br>
+
+	<input type="radio" name="paso3" value="vainilla">
+	<label>Vainilla</label> <br>
+
+	<input type="radio" name="paso3" value="citricos">
+	<label>Cítricos</label> <br><br>
+
+<br> <label> <strong> Aclaraciones/consultas particulares</strong> 
+</label> <br>
+<br> <textarea class="aclaraciones"></textarea> <br>
+
+<br> <input type="checkbox" name="">
+	<label>Deseo recibir notificaciones sobre nuevos productos</label> <br>
+	
+
+<br><input type="submit" name="enviar" value="Enviar" class="botonenviar"> <br>
+
+</form>
+	 </article> 
+
+	<article class="formarticle2"> <h1 class="h1galeriaform">Pociones de amor y autoestima</h1>
+		
+		<div class="f-carousel" id="myCarousel">
+ 
+  <div class="f-carousel__slide">
+  	<img src="img/fotonueve.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i> Amortentia</i>
+  		<br> Amor</h3>
+  </div>
+  <div class="f-carousel__slide">  <img src="img/fotodoce.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i>Rayo violeta</i>  Autoestima</h3>
+  </div>
+  <div class="f-carousel__slide"> <img src="img/fotodiez.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i> Vioviv</i>
+  		<br> Autoestima</h3>
+  </div>
+ <div class="f-carousel__slide"> <img src="img/fotoonce.png" class="galeriaform">
+ 	<h3 class="titulosgaleriaform"> <i> Obsesus</i>
+  		<br> Amor</h3>
+  </div>
+</div>
+
+ <script>
+ 	const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+ </script> 
+
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel"), {
+        Autoplay : {
+          timeout : 5000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+
+	</article> 
+
+	<article class="formarticle3"><h1 class="h1galeriaform" >Pociones de dinero y éxito</h1> 
+
+	<div class="f-carousel" id="myCarousel2">
+ 
+  <div class="f-carousel__slide">
+  	<img src="img/fotodiecisiete.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i> Dineid</i>
+  		<br> Dinero</h3>
+  </div>
+  <div class="f-carousel__slide">  <img src="img/fototrece.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i>Felixir</i>
+  	<br>  Éxito</h3>
+  </div>
+  <div class="f-carousel__slide"> <img src="img/fotoquince.png" class="galeriaform">
+  	<h3 class="titulosgaleriaform"> <i> Divitiae</i>
+  		<br> Dinero</h3>
+  </div>
+ <div class="f-carousel__slide"> <img src="img/fotodieciseis.png" class="galeriaform">
+ 	<h3 class="titulosgaleriaform"> <i> Extensio</i>
+  		<br> Éxito</h3>
+  </div>
+
+</div>
+
+ <script>
+ 	const container = document.getElementById("myCarousel2");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+ </script> 
+
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel2"), {
+        Autoplay : {
+          timeout : 5000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+
+</article>
+
+  </section>
+
+<footer>
+		<article class="textura"> <h3 class="h3footer">
+		Iara Rodríguez</h3> </article> 
+		<article id="redes"> Redes </article>
+	 </footer>
+
+</main>
+</body>
+</html>
